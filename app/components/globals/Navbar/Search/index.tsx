@@ -44,7 +44,7 @@ const Search = () => {
             return `${guestCount} hóspedes`
         }
 
-        return "Adicionar"
+        return "Adicionar hóspedes"
     }, [guestCount])
 
     return (
