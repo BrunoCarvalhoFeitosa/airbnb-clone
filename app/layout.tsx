@@ -15,6 +15,8 @@ import "./globals.css"
 
 const font = Nunito({ subsets: ["latin"] })
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
     title: "Airbnb, faça sua reserva e viaje para onde quiser com a sua família.",
     description: "Airbnb, faça sua reserva para casas, chalés e pousadas localizadas em lugares paradisíacos.",
@@ -34,7 +36,7 @@ export default async function RootLayout({ children }: {
     const currentUser = await getCurrentUser()
   
     return (
-        <html lang="en">
+        <html lang="pt-br">
             <body className={font.className}>
                 <Theme>
                     <ClientOnly>
@@ -48,7 +50,9 @@ export default async function RootLayout({ children }: {
                     <div>
                         {children}
                     </div>
-                    <Footer />
+                    <ClientOnly>
+                        <Footer />
+                    </ClientOnly>
                 </Theme>
             </body>
         </html>
