@@ -66,7 +66,7 @@ A aplicação está em produção neste link: (https://bruno-carvalho-feitosa-sp
 <!-- GETTING STARTED -->
 ## Iniciando o projeto
 
-Primeiramente será necessário clonar este projeto em (https://bruno-carvalho-feitosa-airbnb-clone.vercel.app), após o download será necessário abrir este projeto no seu editor e no terminal digitar npm install ou yarn, posteriormente é só rodar em seu terminal o comando npm run dev ou yarn dev, após isso, a página será aberta em seu navegador.
+Primeiramente será necessário clonar este projeto em (https://github.com/BrunoCarvalhoFeitosa/airbnb-clone.git), após o download será necessário abrir este projeto no seu editor e no terminal digitar npm install ou yarn, posteriormente é só rodar em seu terminal o comando npm run dev ou yarn dev, após isso, a página será aberta em seu navegador.
 
 ### Pré-requisitos
 
