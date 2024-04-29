@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/BrunoCarvalhoFeitosa/airbnb-clone">
-    <img src="public\images\fav.png" alt="Logo" width="100" weight="100" />
+    <img src="public\images\fav.png" alt="Logo" width="48" weight="48" />
   </a>
 
   <p align="center">
